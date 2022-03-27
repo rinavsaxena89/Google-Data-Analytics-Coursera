@@ -90,6 +90,9 @@
         This metric is chosen to understand on which days are the rides the maximum and minimum. Also, a comparison of the types of rides on these days. Below is a visual that highlights the same:
         
 ![Number_Of_Rides](https://user-images.githubusercontent.com/64735037/160237852-b79eadea-5049-47b0-a0d2-6bc2ed251a73.png)
+
+### Percentage - Number of Rides
+
 ![Number_Of_Rides(%)](https://user-images.githubusercontent.com/64735037/160283559-1764c1c1-7fbc-4022-a310-46ee34c80b3e.png)
 
         
