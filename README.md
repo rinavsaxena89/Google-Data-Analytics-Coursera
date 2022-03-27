@@ -171,15 +171,15 @@ Thus, the **highest contribution of the top station to the total number of rides
 
 ![image](https://user-images.githubusercontent.com/64735037/160282291-ee7183fd-ca25-4b5f-88ae-4ee013664d20.png)
 
-Also, a more expanded filtered view below with the 16th Hour of Sunday for Casual riders and Annual members using electric bikes.
+Also, a more expanded filtered view is illustrated below, with the 15th-19th hour of Saturday for Casual riders and Annual members using electric bikes.
 
 **Casual Riders**
 
-![image](https://user-images.githubusercontent.com/64735037/160282416-80c5a976-9edb-43c4-89ca-ce07e9d422de.png)
+![image](https://user-images.githubusercontent.com/64735037/160295135-a9716e63-ab9d-46a0-8930-082d5442b072.png)
 
 **Annual Members**
 
-![image](https://user-images.githubusercontent.com/64735037/160284356-f4916e90-4f45-407f-a6e5-dd47994a8d40.png)
+![image](https://user-images.githubusercontent.com/64735037/160295154-6a831239-9df0-4d7a-9d43-1caa780cb84e.png)
 
 ### Summary
 
