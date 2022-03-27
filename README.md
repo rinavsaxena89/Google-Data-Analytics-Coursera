@@ -103,7 +103,7 @@
    
 ![image](https://user-images.githubusercontent.com/64735037/160238857-3323b26b-7c17-4e95-a6db-03ba554d44e3.png)
 
-Thus, the highest contribution of the top station to the total number of rides is 2.73%. The total contribution of the top-21 stations sums up to 17.1% only. Consequently, to expand in this direction with further bifurcation of type of bike and members would be futile.
+Thus, the **highest contribution of the top station to the total number of rides is 2.73%. The total contribution of the top-21 stations sums up to 17.1% only**. Consequently, to expand in this direction with further bifurcation of type of bike and members would be futile.
 
   ### Time and Distance
   
