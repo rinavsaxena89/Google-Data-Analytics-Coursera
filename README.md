@@ -102,7 +102,7 @@
     
    - **Top - 21 Starting Stations**:
     
-      This metric is chosen so as to find out the total contribution of the top-21 stations to the overall number of rides. The below visual highlights the same in terms of number of rides against the station name.
+      This metric is chosen so as to find out the total contribution of the top-21 stations to the overall number of rides per starting station. The below visual highlights the same in terms of number of rides against the station name.
    
 ![image](https://user-images.githubusercontent.com/64735037/160238857-3323b26b-7c17-4e95-a6db-03ba554d44e3.png)
 
