@@ -16,25 +16,25 @@
   
   https://www.kaggle.com/code/jaeyun7lim/google-data-analytics-capstone-project-bike-case/script
   
-  I have highlighted the various tools used in the forthcoming steps:
+  The various tools used are highlighted in the forthcoming steps:
   
-  ## Ask
+## Ask
   
-    Through this project, the difference in trends between rides of annual members and casual riders has been explored. The original business task remains the same : "How to convert casual riders to annual members" and this has been brought into the spotlight through identifying various trends between different columns in the dataset. 
+Through this project, the difference in trends between rides of annual members and casual riders has been explored. The original business task remains the same : "How to convert casual riders to annual members" and this has been brought into the spotlight through identifying various trends between different columns in the dataset. 
     
-    Key stakeholders are the CEO, Cyclists executive team and the marketing analysis team.
+Key stakeholders are the CEO, Cyclists executive team and the marketing analysis team.
     
-  ## Prepare
+## Prepare
     
-   ### Description of the Data
+### Description of the Data
    
-   The datasets are divided into monthly folders (zipped files). There are more than 1040000 rows in each dataset which is why it cannot be operated through Excel or Google Sheets. The files are from Apr-2020 till Feb-2022. A total of 23 Datasets.
+The datasets are divided into monthly folders (zipped files). There are more than 1040000 rows in each dataset which is why it cannot be operated through Excel or Google Sheets. The files are from Apr-2020 till Feb-2022. A total of 23 Datasets.
    
-   Once this dataset is cleaned and combined into one, with the below data dictionary, some trends can be explored to highlight the differences in trends between Annual Members and Casual Riders.
+Once this dataset is cleaned and combined into one, with the below data dictionary, some trends can be explored to highlight the differences in trends between Annual Members and Casual Riders.
    
-   The data looks credible although I might have considered a short dataset (after truncating each dataset till 1000 rows) to highlight the trends.
+The data looks credible although I might have considered a short dataset (after truncating each dataset till 1000 rows) to highlight the trends.
   
-    The dataset provided follows the following dictionary:
+The dataset provided follows the following dictionary:
     
     - S.No. : Just a serial number to distinguish an entry
     - ride_id : Every ride is unique with an alphanumeric 16 digit ID.
@@ -51,19 +51,19 @@
     - end lng
     - member_casual : Categorical column with 2 categories: "Member","Casual"
     
- ## Process
+## Process
  
-    Tools used: 
+ Tools used: 
     
    - **R** for concatenation and cleaning
    - **Excel** for Feature Engineering and Cleaning
    - **Tableau** for Visual Analysis.
  
-    The concatenation of all these monthly files into one file was done through R since the files were too big to load onto Excel or Google Docs. The code in R could be done with the help of a fellow peer - JAEYUN LIM. I have also linked his Kaggle code with this project since I am a beginner in R.
+The concatenation of all these monthly files into one file was done through R since the files were too big to load onto Excel or Google Docs. The code in R could be done with the help of a fellow peer - JAEYUN LIM. I have also linked his Kaggle code with this project since I am a beginner in R.
     
-    Now, since the number of rows were too much I have truncated the data from every monthly file till a 1000 rows. The number of rows chosen was just random.
+Now, since the number of rows were too much I have truncated the data from every monthly file till a 1000 rows. The number of rows chosen was just random.
     
-   ### Cleaning
+### Cleaning
    
    - Through R, the number of rows in each monthly dataset was reduced to 1000.
    - Through R, the date column was cleaned (After Concatenation) and brought to the same format as the other formats (Date Data-Type)
@@ -81,58 +81,58 @@
   - **Miscallaneous**
   - **Time and Distance**
   
-  ### Miscallaneous
+### Miscallaneous
   
-    This section is termed as "Miscallaneous", as the analysis would be focused at areas where time and distance are not a part of the metrics.
+This section is termed as "Miscallaneous", as the analysis would be focused at areas where time and distance are not a part of the metrics.
     
    - **Number of Rides per Day of the Week**:
         
-        This metric is chosen to understand on which days are the rides the maximum and minimum. Also, a comparison of the types of rides on these days. Below is a visual that highlights the same:
+This metric is chosen to understand on which days are the rides the maximum and minimum. Also, a comparison of the types of rides on these days. Below is a visual that highlights the same:
         
 ![Number_Of_Rides](https://user-images.githubusercontent.com/64735037/160237852-b79eadea-5049-47b0-a0d2-6bc2ed251a73.png)
 
-### Percentage - Number of Rides
+#### Percentage - Number of Rides
 
 ![Number_Of_Rides(%)](https://user-images.githubusercontent.com/64735037/160283559-1764c1c1-7fbc-4022-a310-46ee34c80b3e.png)
 
         
-   From this viz, it can be seen the **electric bike usage among Casual Riders is high** and has a major contribution to the overall rides. Although, this is not the same for Annual Members as the rides are mostly evenly distributed. 
+From this viz, it can be seen the **electric bike usage among Casual Riders is high** and has a major contribution to the overall rides. Although, this is not the same for Annual Members as the rides are mostly evenly distributed. 
         
-   Also, **the number of rides is maximum on Saturday with Friday and Sunday following up closely among Casual riders**. The minimum is on the weekdays. For Annual members, the rides are more on the weekdays.
+Also, **the number of rides is maximum on Saturday with Friday and Sunday following up closely among Casual riders**. The minimum is on the weekdays. For Annual members, the rides are more on the weekdays.
     
-   - **Top - 21 Starting Stations**:
+- **Top - 21 Starting Stations**:
     
-      This metric is chosen so as to find out the total contribution of the top-21 stations to the overall number of rides per starting station. The below visual highlights the same in terms of number of rides against the station name.
+This metric is chosen so as to find out the total contribution of the top-21 stations to the overall number of rides per starting station. The below visual highlights the same in terms of number of rides against the station name.
    
 ![image](https://user-images.githubusercontent.com/64735037/160238857-3323b26b-7c17-4e95-a6db-03ba554d44e3.png)
 
 Thus, the **highest contribution of the top station to the total number of rides is 2.73%. The total contribution of the top-21 stations sums up to 17.1% only**. Consequently, to expand in this direction with further bifurcation of type of bike and members would be futile.
 
-  ### Time and Distance
+### Time and Distance
   
-     The time metric has been analysed with respect to a High Level View, Weekday View and an Hour View.
+The time metric has been analysed with respect to a High Level View, Weekday View and an Hour View.
      
-   - **High Level View:**
+- **High Level View:**
 
-      From the below visualization, for the years 2020 and 2021, casual members have had longer rides when using a docked bike as compared to an electric bike. ALthough, when the sum of minutes is compared, the trend is reveresed with casual riders riding more on electric bikes. **This indicates, there are shorter rides when an electric bike is used but quantitavely, the rides are more in number as compared to docked bike rides.**
+From the below visualization, for the years 2020 and 2021, casual members have had longer rides when using a docked bike as compared to an electric bike. Although, when the sum of minutes is compared, the trend is reveresed with casual riders riding more on electric bikes. **This indicates, there are shorter rides when an electric bike is used but quantitavely, the rides are more in number as compared to docked bike rides.**
       
 ![image](https://user-images.githubusercontent.com/64735037/160273830-7a82f06f-9bf4-49ba-b5bc-b78ff703d85d.png)
 
-   - **Weekday View:**
+- **Weekday View:**
 
-      This view is divided into the casual and annual members. Below are the observations:
+This view is divided into the casual and annual members. Below are the observations:
       
-        - Casual and annual members ride more in terms of time-per-ride and quantity of rides on the **weekends**, apart from the exception of casual riders - They take more time per ride on Mondays when using a docked bike.
-        - The point observed in the high level view section is confirmed here. For casual riders, The average times when using a docked bike is much higher as compared to other categories with an average of 56 minutes (just under an hour), while, the number of rides (however small) are much more when using an electric bike.
+            - Casual and annual members ride more in terms of time-per-ride and quantity of rides on the **weekends**, apart from the exception of casual riders - They take more time per ride on Mondays when using a docked bike.
+            - The point observed in the high level view section is confirmed here. For casual riders, The average times when using a docked bike is much higher as compared to other categories with an average of 56 minutes (just under an hour), while, the number of rides (however small) are much more when using an electric bike.
 
 **Note:** The reference line in the below visuals represents the average per pane.
 
-### Casual Riders
+#### Casual Riders
 ![image](https://user-images.githubusercontent.com/64735037/160278719-e291e235-b8f4-4aa7-a6ed-046461489d92.png)
 
-        - For annual members the trends for all types of bikes are quite constant. Usage on the weekends it slightly more than that on the weekdays.
+            - For annual members the trends for all types of bikes are quite constant. Usage on the weekends it slightly more than that on the weekdays.
 
-### Annual Members
+#### Annual Members
 ![image](https://user-images.githubusercontent.com/64735037/160278730-d19949b3-8c6a-49d0-8e3d-0ecc6cb7f1be.png)
 
    - **Hour View:** 
@@ -144,18 +144,18 @@ Thus, the **highest contribution of the top station to the total number of rides
         - The average time per ride is more for docked bikes during specific afternoon hours.
         - Focus of casual riders is mostly on electric bikes and docked bikes.
 
-### Casual Riders
+#### Casual Riders
 ![image](https://user-images.githubusercontent.com/64735037/160280513-d639ed4c-ceba-4044-95f5-8c0325aa4a3c.png)
 
    - For annual members, the distribution is quite uniform and stable for all types of bikes. The peak times being the same as for casual riders.
    - **In terms of distance travelled and number of rides, classic bikes are used the most.**
  
-### Annual Members**
+#### Annual Members**
 ![image](https://user-images.githubusercontent.com/64735037/160280653-67836538-e58e-4a19-84d1-7ec42e99303c.png)
 
    - **Distance Analysis** (All distance visuals are in meters)
 
-   For distance, I have captured the quarter/month in which most distance was traveled by casual riders and annual members.
+For distance, I have captured the quarter/month in which most distance was traveled by casual riders and annual members.
       
    - Since, casual riders use electric bikes more, from the below viz, it can be seen that they **travel more distances in the 3rd and 4th quarters**.
 
@@ -163,24 +163,24 @@ Thus, the **highest contribution of the top station to the total number of rides
 
    Second, the map comparison is shown wherein **casual riders are seen to undertake more long distance rides as compared to annual members**.
       
-      - Finally, the below maps are focused on electric bike usage. The distance is plotted with the starting lat long and the end lat long.
-      - From the below visuals, it can be infered that casual riders travel more distances from annual riders. This is also confirmed with the specific visual wherein Sunday and Peak-Time - 16th hour are chosen as filters
+    - Finally, the below maps are focused on electric bike usage. The distance is plotted with the starting lat long and the end lat long.
+    - From the below visuals, it can be infered that casual riders travel more distances from annual riders. This is also confirmed with the specific visual wherein Sunday and Peak-Time - 16th hour are chosen as filters
       
-### Casual Riders
+#### Casual Riders
 
 ![image](https://user-images.githubusercontent.com/64735037/160282281-b0bbf923-02aa-41a9-96fe-6fbafc775202.png)
 
-### Annual Members
+#### Annual Members
 
 ![image](https://user-images.githubusercontent.com/64735037/160282291-ee7183fd-ca25-4b5f-88ae-4ee013664d20.png)
 
 Also, a more expanded filtered view is illustrated below, with the 15th-19th hours of Saturday for Casual riders and Annual members using electric bikes.
 
-### Casual Riders
+#### Casual Riders
 
 ![image](https://user-images.githubusercontent.com/64735037/160295135-a9716e63-ab9d-46a0-8930-082d5442b072.png)
 
-### Annual Members
+#### Annual Members
 
 ![image](https://user-images.githubusercontent.com/64735037/160295154-6a831239-9df0-4d7a-9d43-1caa780cb84e.png)
 
