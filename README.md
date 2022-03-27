@@ -8,7 +8,8 @@
   - share
   - act 
   
-  The final deliverable aims to find an answer to the question: "How to improve annual memberships for non-permanenet or one-time riders/users."
+  The final deliverable aims to find an answer to the question: "How to improve annual memberships for non-permanenet or one-time riders/users." by providing recommendations based on the trends.
+  
   There are two files added. The history of the R code used and the final dataset created.
   
   I would like to thank **JAEYUN LIM** for the R - Code on his Kaggle page. The concatenation of such heavy files would not have been possible in the timeframe given without his inputs. The link is shared below:
