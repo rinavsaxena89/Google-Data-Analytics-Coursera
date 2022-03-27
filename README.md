@@ -115,6 +115,8 @@ Thus, the highest contribution of the top station to the total number of rides i
         - Casual and annual members ride more in terms of time-per-ride and quantity of rides on the **weekends**, apart from the exception of casual riders - They take more time per ride on Mondays when using a docked bike.
         - The point observed in the high level view section is confirmed here. For casual riders, The average times when using a docked bike is much higher as compared to other categories with an average of 56 minutes (just under an hour), while, the number of rides (however small) are much more when using an electric bike.
 
+**Note:** The reference line in the below visuals represents the average per pane.
+
 **Casual Riders**
 ![image](https://user-images.githubusercontent.com/64735037/160278719-e291e235-b8f4-4aa7-a6ed-046461489d92.png)
 
@@ -149,7 +151,7 @@ Thus, the highest contribution of the top station to the total number of rides i
 
 ![image](https://user-images.githubusercontent.com/64735037/160281477-1c2f0965-4c4f-4d7e-9036-0bcf40f0aba4.png)
 
-   Second, the map comparison is shown wherein **casual riders are seen to travel long distances as compared to annual members**.
+   Second, the map comparison is shown wherein **casual riders are seen to undertake more long distance rides as compared to annual members**.
       
       - Finally, the below maps are focused on electric bike usage. The distance is plotted with the starting lat long and the end lat long.
       - From the below visuals, it can be infered that casual riders travel more distances from annual riders. This is also confirmed with the specific visual wherein Sunday and Peak-Time - 16th hour are chosen as filters
@@ -170,7 +172,7 @@ Also, a more expanded filtered view below with the 16th Hour of Sunday for Casua
 
 **Annual Members**
 
-![image](https://user-images.githubusercontent.com/64735037/160282426-d1dd841c-0cf4-4537-bbde-cfe335f5768c.png)
+![image](https://user-images.githubusercontent.com/64735037/160284356-f4916e90-4f45-407f-a6e5-dd47994a8d40.png)
 
 ### Summary
 
@@ -180,14 +182,14 @@ Also, a more expanded filtered view below with the 16th Hour of Sunday for Casua
 - **In terms of distance travelled and number of rides, classic bikes are used the most by annual members.**
 - **For both member types, the trends indicate high usage post 1100 hours continuing well beyond 1800 hours.**
 - **casual riders travel more distances in the 3rd and 4th quarters.**
-- **casual riders are seen to travel long distances as compared to annual members.**
+- **casual riders are seen to undertake more long distance rides as compared to annual members**
 
 ## Act
 
 The top - 3 recommendations based on the Summary in the Analyze and Share section are:
 
-- A miles program can be constructed as a part of the annual membership only for electric bikes wherein free miles are offered the more distance is travelled.
-- An additional slab of membership can be considered. An example could be a program only for Q3 and Q4 (6 months) with a group admission attached to it. (Example: couple program or a family program). This would be for electric bike users.
+- A miles program can be constructed as a part of the annual membership only for electric bikes wherein free miles are offered the more distance travelled.
+- An additional slab of membership can be considered. An example could be a program only for Q3 and Q4 (6 months) quarters with a group admission attached to it. (Example: couple program or a family program). This would be for electric bike users only.
 - A special offer for weekends can be considered only for electric bike users in the annual membership program. A special hourly offer focussed on peak timings from 1500 - 1900 hours can be considered only for electric bikes.
 - Casual riders ride more in number as compared to annual riders and also they predominantly use electric bikes, consequently, addition of charging stations and/or electric bikes, specially at the outskirts (infered from the distance analysis), can be considered if the budget permits. Special concessions to electic bikes users could be added in the annual membership as an attraction.
 
