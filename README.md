@@ -124,12 +124,12 @@ Thus, the **highest contribution of the top station to the total number of rides
 
 **Note:** The reference line in the below visuals represents the average per pane.
 
-**Casual Riders**
+### Casual Riders
 ![image](https://user-images.githubusercontent.com/64735037/160278719-e291e235-b8f4-4aa7-a6ed-046461489d92.png)
 
         - For annual members the trends for all types of bikes are quite constant. Usage on the weekends it slightly more than that on the weekdays.
 
-**Annual Members**
+### Annual Members
 ![image](https://user-images.githubusercontent.com/64735037/160278730-d19949b3-8c6a-49d0-8e3d-0ecc6cb7f1be.png)
 
    - **Hour View:** 
@@ -141,13 +141,13 @@ Thus, the **highest contribution of the top station to the total number of rides
         - The average time per ride is more for docked bikes during specific afternoon hours.
         - Focus of casual riders is mostly on electric bikes and docked bikes.
 
-**Casual Riders**
+### Casual Riders
 ![image](https://user-images.githubusercontent.com/64735037/160280513-d639ed4c-ceba-4044-95f5-8c0325aa4a3c.png)
 
    - For annual members, the distribution is quite uniform and stable for all types of bikes. The peak times being the same as for casual riders.
    - **In terms of distance travelled and number of rides, classic bikes are used the most.**
  
-**Annual Members**
+### Annual Members**
 ![image](https://user-images.githubusercontent.com/64735037/160280653-67836538-e58e-4a19-84d1-7ec42e99303c.png)
 
    - **Distance Analysis** (All distance visuals are in meters)
@@ -163,21 +163,21 @@ Thus, the **highest contribution of the top station to the total number of rides
       - Finally, the below maps are focused on electric bike usage. The distance is plotted with the starting lat long and the end lat long.
       - From the below visuals, it can be infered that casual riders travel more distances from annual riders. This is also confirmed with the specific visual wherein Sunday and Peak-Time - 16th hour are chosen as filters
       
-**Casual Riders**
+### Casual Riders
 
 ![image](https://user-images.githubusercontent.com/64735037/160282281-b0bbf923-02aa-41a9-96fe-6fbafc775202.png)
 
-**Annual Members**
+### Annual Members
 
 ![image](https://user-images.githubusercontent.com/64735037/160282291-ee7183fd-ca25-4b5f-88ae-4ee013664d20.png)
 
-Also, a more expanded filtered view is illustrated below, with the 15th-19th hour of Saturday for Casual riders and Annual members using electric bikes.
+Also, a more expanded filtered view is illustrated below, with the 15th-19th hours of Saturday for Casual riders and Annual members using electric bikes.
 
-**Casual Riders**
+### Casual Riders
 
 ![image](https://user-images.githubusercontent.com/64735037/160295135-a9716e63-ab9d-46a0-8930-082d5442b072.png)
 
-**Annual Members**
+### Annual Members
 
 ![image](https://user-images.githubusercontent.com/64735037/160295154-6a831239-9df0-4d7a-9d43-1caa780cb84e.png)
 
